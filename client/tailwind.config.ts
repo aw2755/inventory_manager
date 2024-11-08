@@ -1,7 +1,6 @@
 import type { Config } from "tailwindcss";
 import { createThemes } from "tw-colors";
 import colors from "tailwindcss/colors";
-import { dark } from "@mui/material/styles/createPalette";
 
 const baseColors = [
   "gray",
@@ -64,6 +63,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        'xsm': '600px', // Custom breakpoint a little smaller than sm(650px)
+        'xxsm' : '500px' // Custom breakpoint a little smaller than sm(650px)
+      },
       backgroundImage: {
         "gradient-radical": "radical-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

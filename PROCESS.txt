@@ -1,0 +1,69 @@
+*** STARTING STEPS: 
+    1. Create a new github repository on github
+    2. Clone the repository locally
+    3. cd into repository
+    4. got the redux extension for chrome
+    5. got the pesticide extension for chrome
+        - both of these are a tool to help with UI/UX development
+*** GETTING INTO THE PROJECT:
+    1. npx create-next-app@latest
+        - will prompt you to name your project
+        - will go through and ask you for certain packages you might want to install
+    2. cd into that directory
+    3. Install required libraries
+        - npm i @mui/x-data-grid @mui/material @emotion/react @emotion/styled lucide-react numeral recharts uuid axios
+        - @mui is a materials UI library
+            - the package 'x-data-grid' lets us display tables.
+                * SUPPLEMENTARY libraries required to use @mui/x-data-grid 
+                    - @mui/material, @emotion/react, @emotion/styled, 
+                * ADDITIONAL libraries for more features
+                    - lucide-react(icon), numeral(numbers manipulation), recharts(charts), 
+                * FUNCTIONALITIES libraries
+                    - uuid(generate random id), axios(API calls)
+    4. installing required dependencies for typescript
+        - npm i -D @types/node @types/uuid @types/numeral 
+        - npm - D tw-colors
+    NOTE: for any version mismatch problems, just run npm i <package-name>@<version>
+*** STARTING THE CODE:
+    * a little bit about these files in next.js
+        1. src/app/page.tsx is the first initial page that will be shown
+        2. src/app.layout.tsx is the root of this project
+        3. public/ is where all the assets will be saved
+        4. .eslintrc.json is the eslint setup files
+        5. gitignore are files to not push to github
+        6. package.json is the configuration for the json file
+        7. tailwind.config.tx represents the tailwind styling
+        8. tsconfig.ts is the ts configuration
+        
+    NOTES:
+        - (typing tfrace will fill a default template for a new component page)
+        - hovering over a word and pressing cmd+D multiple times will select that word the number of times you press
+            EX: test test test   <-- press one of these and press cmd+D
+        - in order to use the onClick{() => {}} function, we must add "use client"; on top of the file
+        REDUX 
+         > redux is useful because it lets each user retain their state in the current session in loacalstorage
+            - npm i react-redux @reduxjs/toolkit dotenv
+                - @reduxjs/toolkit is a utility that simiplifies the creation of a redux store
+                - dotenv is just used to store enviornment variables
+            - npm i redux-persist
+                - redux-persist is the library that allows user to retain their state across all sessions 
+                    (i.e if they close the tab and come back their state saves)
+            - /client/src/app/redux.tsx is a boiler plate redux file that can be use for any next.js projects
+        > redux can also be used to create functions to change the state of items
+            - /client/src/state/index.tsx  <-- also a boiler plate template
+        > redux can also be used to make api calls
+            - /client/src/app/state/api.tsx   <-- also a boiler plate
+    1. adding in colorThemes for light/dark mode
+    2. adding in a dashboard
+        - this dash board is made so that it stays on the page no matter where you go
+          even if you go to a different endpoint, it stays on the left side
+    3. for components like the Navbar, there is a way to import it using (components) like this:
+        - import Navbar from "@/app/(components)/Navbar";
+        this makes it so that Navbar will not have a url impact
+        this is also ignored by the router
+        - very good for organizational purposes as well
+    4. /client/app/state/index.tsx is where we create global functions
+        - isSidebarCollapse() => boolean
+            - this checks for open/close sidebar
+        - isDarkMode() => boolean
+            - this checks for dark/light mode

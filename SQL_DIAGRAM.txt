@@ -1,0 +1,41 @@
+- products
+product_id (primary key)  ->  varchar
+name                      ->  varchar
+price                     ->  decimal
+stock                     ->  int
+
+- sales
+sale_id (primary key)     ->  varchar
+product_id (foreign key)  ->  varchar
+quantity                  ->  int
+unit_price                ->  decimal
+total_price               ->  decimal
+
+- purchases
+purchase_id (primary key) ->  varchar
+product_id (foreign key)  ->  varchar
+quantity                  ->  int
+unit_cost                 ->  decimal
+total_cost                ->  decimal
+
+- users
+user_id                   ->  varchar
+name                      ->  varchar
+email                     ->  varchar
+
+- expenses
+expense_id                ->  varchar
+total                     -> decimal
+
+
+on terminal (Note: none of the download worked so I used homebrew to install postgresql and pgadmin4)
+- brew install postgresql@17         # Downloads a version of postgresql
+- brew services list                 # Shows the status of running services
+- brew services stop postgresql@17   # Stops the PostgreSQL service
+- brew services start postgresql@17  # Starts the PostgreSQL service
+
+- brew install --cask pgadmin4
+- open pgadmin4
+- pgadmin is essentially just an UI for postgresql
+
+once pgadmin opens just enter in the password and you connect to the server
