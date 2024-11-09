@@ -1,0 +1,62 @@
+[
+  {
+    "productId": "d35623ee-bef6-42b2-8776-2f99f8bb4782",
+    "name": "Chicken",
+    "price": 456.04,
+    "stock": 120
+  },
+  {
+    "productId": "8ac1ac77-7358-425e-be16-0bdde9f02e59",
+    "name": "Beef",
+    "price": 899.05,
+    "stock": 150
+  },
+  {
+    "productId": "1afc136b-4d9f-4e8e-aace-8e1df908a404",
+    "name": "Vegatables",
+    "price": 264.37,
+    "stock": 100
+  },
+  {
+    "productId": "af84cc12-4fea-4f58-aece-f2ce92ca9580",
+    "name": "Boba Pearls",
+    "price": 90.93,
+    "stock": 500
+  },
+  {
+    "productId": "86e3bb1c-2f5d-4774-98f3-4df7cddd0a0f",
+    "name": "Tea",
+    "price": 50.62,
+    "stock": 100
+  },
+  {
+    "productId": "26b017c6-06d8-443f-9b4a-d6b1cee6f4c0",
+    "name": "Milk",
+    "price": 40.44,
+    "stock": 100
+  },
+  {
+    "productId": "440c9e80-6bf8-4eb3-b2d2-f81936d67de3",
+    "name": "ToGo Boxes",
+    "price": 104.15,
+    "stock": 600
+  },
+  {
+    "productId": "98255f4e-40a6-470f-89a5-0792729f8947",
+    "name": "ToGo Utencils",
+    "price": 150.99,
+    "stock": 600
+  },
+  {
+    "productId": "2a339fb2-f9f3-43bc-a85a-b217a0a38f12",
+    "name": "Soy Sauce",
+    "price": 99.9,
+    "stock": 100
+  },
+  {
+    "productId": "8a8391b2-b4ac-4847-b652-66ffd8d65875",
+    "name": "Salt",
+    "price": 62.95,
+    "stock": 100
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "saleId": "df8a03fa-c69c-4ffe-9e28-5febfb7a5ca9",
+    "productId": "d35623ee-bef6-42b2-8776-2f99f8bb4782",
+    "quantity": 229,
+    "unitPrice": 221.1,
+    "totalPrice": 8012.55
+  },
+  {
+    "saleId": "8d008094-bbb7-4b6f-a38c-0e2a9905322d",
+    "productId": "8ac1ac77-7358-425e-be16-0bdde9f02e59",
+    "quantity": 241,
+    "unitPrice": 414.68,
+    "totalPrice": 5661.25
+  },
+  {
+    "saleId": "4fca2797-3e88-40c5-88d3-fd4df8744958",
+    "productId": "1afc136b-4d9f-4e8e-aace-8e1df908a404",
+    "quantity": 699,
+    "unitPrice": 550.22,
+    "totalPrice": 4708.54
+  },
+  {
+    "saleId": "ae6a3d09-fdf8-407b-9e55-07a347c87efa",
+    "productId": "af84cc12-4fea-4f58-aece-f2ce92ca9580",
+    "quantity": 182,
+    "unitPrice": 113.69,
+    "totalPrice": 9419.4
+  },
+  {
+    "saleId": "f4dced2f-4446-450b-9778-fd32fe4dc583",
+    "productId": "86e3bb1c-2f5d-4774-98f3-4df7cddd0a0f",
+    "quantity": 863,
+    "unitPrice": 214.01,
+    "totalPrice": 8942.2
+  },
+  {
+    "saleId": "b9c0856c-d10f-47a1-bf05-2f2c400aff69",
+    "productId": "26b017c6-06d8-443f-9b4a-d6b1cee6f4c0",
+    "quantity": 985,
+    "unitPrice": 506.74,
+    "totalPrice": 1790.08
+  },
+  {
+    "saleId": "4411942c-1d3e-42b1-89bd-a692c43185b4",
+    "productId": "440c9e80-6bf8-4eb3-b2d2-f81936d67de3",
+    "quantity": 607,
+    "unitPrice": 100.77,
+    "totalPrice": 3293.73
+  },
+  {
+    "saleId": "85460f0a-83d5-45b5-8db0-42506e0c5739",
+    "productId": "98255f4e-40a6-470f-89a5-0792729f8947",
+    "quantity": 93,
+    "unitPrice": 310.09,
+    "totalPrice": 5531.81
+  },
+  {
+    "saleId": "1d9c4316-ed1a-49c5-a9ed-71a9fc8aff1c",
+    "productId": "2a339fb2-f9f3-43bc-a85a-b217a0a38f12",
+    "quantity": 482,
+    "unitPrice": 83.62,
+    "totalPrice": 894.41
+  },
+  {
+    "saleId": "94a6ad98-8efe-4aef-bf19-742a542cf790",
+    "productId": "8a8391b2-b4ac-4847-b652-66ffd8d65875",
+    "quantity": 285,
+    "unitPrice": 76.09,
+    "totalPrice": 3738.87
+  }
+]

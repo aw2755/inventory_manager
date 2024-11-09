@@ -1,0 +1,22 @@
+[
+  {
+    "expenseId": "fca4f2d0-c3d7-4246-a04e-626ab4045c40",
+    "category": "Food",
+    "amount": 6079.3
+  },
+  {
+    "expenseId": "5c1121d7-20c8-4890-81c0-949bd60523a3",
+    "category": "ToGo Supplies",
+    "amount": 1489.5
+  },
+  {
+    "expenseId": "4529aaef-39d0-4188-9256-8c8fd5bad7ca",
+    "category": "Kicthen",
+    "amount": 1579.97
+  },
+  {
+    "expenseId": "fb2dba2d-c186-4165-ab7d-66ce276041a4",
+    "category": "Boba",
+    "amount": 6079.3
+  }
+]

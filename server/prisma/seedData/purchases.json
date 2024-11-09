@@ -1,0 +1,72 @@
+[
+  {
+    "purchaseId": "5035f91e-4a29-411a-8779-17f6105675f1",
+    "productId": "d35623ee-bef6-42b2-8776-2f99f8bb4782",
+    "quantity": 875,
+    "unitCost": 4163.31,
+    "totalCost": 7871.43
+  },
+  {
+    "purchaseId": "85841cb5-2132-40f2-b923-9769ee3c199b",
+    "productId": "8ac1ac77-7358-425e-be16-0bdde9f02e59",
+    "quantity": 471,
+    "unitCost": 5673.17,
+    "totalCost": 485.48
+  },
+  {
+    "purchaseId": "de384851-f898-4495-99b8-73448bb470bf",
+    "productId": "1afc136b-4d9f-4e8e-aace-8e1df908a404",
+    "quantity": 37,
+    "unitCost": 3835.06,
+    "totalCost": 4202.25
+  },
+  {
+    "purchaseId": "e0b0486c-6396-42b7-9a84-e21bd3a88600",
+    "productId": "af84cc12-4fea-4f58-aece-f2ce92ca9580",
+    "quantity": 201,
+    "unitCost": 1822.27,
+    "totalCost": 8028.29
+  },
+  {
+    "purchaseId": "822e6025-e582-4e8c-b143-dc5ebad4c18c",
+    "productId": "86e3bb1c-2f5d-4774-98f3-4df7cddd0a0f",
+    "quantity": 789,
+    "unitCost": 9238.02,
+    "totalCost": 5086.57
+  },
+  {
+    "purchaseId": "dd6d3a14-92d5-40f4-9bf4-92fb4043882c",
+    "productId": "26b017c6-06d8-443f-9b4a-d6b1cee6f4c0",
+    "quantity": 251,
+    "unitCost": 2443.32,
+    "totalCost": 9520.42
+  },
+  {
+    "purchaseId": "434e5415-cb23-4170-b1e7-bc85737dc8c7",
+    "productId": "440c9e80-6bf8-4eb3-b2d2-f81936d67de3",
+    "quantity": 418,
+    "unitCost": 5085.79,
+    "totalCost": 5394.89
+  },
+  {
+    "purchaseId": "963a92ab-e092-4f3d-8b6a-5ab803550d78",
+    "productId": "98255f4e-40a6-470f-89a5-0792729f8947",
+    "quantity": 926,
+    "unitCost": 8626.52,
+    "totalCost": 3526.35
+  },
+  {
+    "purchaseId": "b4aebfdc-bce9-4e90-89fc-5098447d687a",
+    "productId": "2a339fb2-f9f3-43bc-a85a-b217a0a38f12",
+    "quantity": 754,
+    "unitCost": 9052.79,
+    "totalCost": 8035.97
+  },
+  {
+    "purchaseId": "de2ba6a2-c291-4a60-aad1-23d5749c5847",
+    "productId": "8a8391b2-b4ac-4847-b652-66ffd8d65875",
+    "quantity": 365,
+    "unitCost": 1105.02,
+    "totalCost": 361.77
+  }
+]

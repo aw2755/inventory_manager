@@ -1,0 +1,27 @@
+[
+  {
+    "userId": "3b0fd66b-a4d6-4d95-94e4-01940c99aedb",
+    "name": "Alan",
+    "email": "alan@rit.com"
+  },
+  {
+    "userId": "d9d323fa-5c98-4222-a352-120e1f5e2798",
+    "name": "Brian",
+    "email": "brian1@rit.com"
+  },
+  {
+    "userId": "9e2895ae-4afe-4ff2-b3b3-be15cf1c82d6",
+    "name": "Bryant",
+    "email": "bryant@rit.com"
+  },
+  {
+    "userId": "c7072fb5-cd2b-4703-8a58-328e5b7ed95a",
+    "name": "Tyrone",
+    "email": "tyrone@rit.com"
+  },
+  {
+    "userId": "22c29051-d301-4cc2-86dd-c19695408adb",
+    "name": "Huan",
+    "email": "huan@rit.com"
+  }
+]
