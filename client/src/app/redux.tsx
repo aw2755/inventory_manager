@@ -30,9 +30,9 @@ const createNoopStorage = () => {
       // eslint-disable-next-line @typescript-eslint/no-unused-vars
       return Promise.resolve(null);
     },
-    setItem(value: any) {
+    setItem() {
       // eslint-disable-next-line @typescript-eslint/no-unused-vars
-      return Promise.resolve(value);
+      return Promise.resolve(null);
     },
     removeItem() {
       // eslint-disable-next-line @typescript-eslint/no-unused-vars
