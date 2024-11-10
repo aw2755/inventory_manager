@@ -2,7 +2,8 @@
 
 import { useAppDispatch, useAppSelector } from "@/app/redux";
 import { setIsDarkMode, setIsSidebarCollapsed } from "@/state";
-import { Bell, Link, Menu, Moon, Settings, Sun } from "lucide-react"
+import { Bell, Menu, Moon, Settings, Sun } from "lucide-react"
+import Link from "next/link";
 import React from 'react'
 
 const Navbar = () => {
@@ -67,7 +68,7 @@ const Navbar = () => {
           </div>
         </div>
         <Link href="/settings">
-          <Settings className="cursor-pointer text-gray-500" size={24}/>
+          <Settings className="cursor-pointer text-gray-500" size={24} />
         </Link>
       </div>
     </div>

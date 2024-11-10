@@ -25,7 +25,8 @@ email                     ->  varchar
 
 - expenses
 expense_id                ->  varchar
-total                     -> decimal
+category                  ->  varchar
+total                     ->  decimal
 
 
 on terminal (Note: none of the download worked so I used homebrew to install postgresql and pgadmin4)

@@ -24,7 +24,7 @@
         - npm i -D @types/node @types/uuid @types/numeral 
         - npm - D tw-colors
     NOTE: for any version mismatch problems, just run npm i <package-name>@<version>
-*** STARTING THE CODE:
+*** CLIENT:
     * a little bit about these files in next.js
         1. src/app/page.tsx is the first initial page that will be shown
         2. src/app.layout.tsx is the root of this project
@@ -67,3 +67,45 @@
             - this checks for open/close sidebar
         - isDarkMode() => boolean
             - this checks for dark/light mode
+*** SERVER:
+    - create a new server directory
+    - npm init -y to initiate the package.json
+    - npm i prisma @prisma/client@latest
+        - this is used to connect to the database
+    - npx prisma init
+    - /server/prisma/seedData folder is where jsons for made up data is
+    - npm install typescript
+        - installs typescript
+    - npx tsc --init
+        - initialized typescript packages
+    - npm i -D ts-node typescript @types/node
+        - install dependencies for typescript
+    - /server/prisma/seed.ts
+        - this is used to initialize the database
+            - when starting it deletes whats currently in it, parse the json files in seedData directory
+              then it populates the database
+    - After setting up the database schemas in schema.prisma update the .env file to the correct credentials
+        - npx prisma generate (generate the schemas)
+        - npx prisma migrate dev --name init (migrates the schema to database)
+        - npm run seed (runs the seed.ts script)
+    backend libraries
+        - npm i express body-parser cors dotenv helmet morgan concurrently rimraf
+            - express is the backend framework
+            - bady-parser is used to parse request
+            - cors(Cross-Origin Resource Sharing) is a nodejs package that provides security feature implemented in 
+                web browsers to restrict how resources on a web server can be requested from a different domain
+            - dotenv is used for enviornment variables
+            - helmet is used to secure api
+            - morgan is used to log https request, useful for debugging and monitoring API requests during development and production
+            - concurrently is used to run multiple commands or scripts concurrently (in parallel) in a single terminal
+            - rimraf is used to help us run package to build typescript files
+    dev dependencies for backend
+        - npm i -D nodemon @types/cors @types/express @types/morgan
+            - nodemon is used to run the live server and saves the data everytime
+            - @types/cors typescript for cors
+            - @types/express typescript for express
+            - @types/morgan typescript for morgan
+    adding a starting script in package.json
+        - "build": "rimraf dist && npm tsc",
+        - "start": "npm run build && node dist/index.js",
+        - "dev": "npm run build && concurrently \"npx tsc -w\" \"nodemon --exec ts=node src/index.ts\""

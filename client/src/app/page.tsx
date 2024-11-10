@@ -1,5 +1,5 @@
-import Dashboard from "@/app/dashboard/page";
+import Inventory from "@/app/inventory/page";
 
 export default function Home() {
-  return <Dashboard />;
+  return <Inventory />;
 }
